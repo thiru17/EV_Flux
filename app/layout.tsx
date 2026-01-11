@@ -5,7 +5,7 @@ import "./globals.css";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "EV DPO | Dynamic Pricing Intelligence",
+  title: "EV FLUX | Dynamic Pricing Intelligence",
   description: "Reduce congestion, protect the grid, and increase revenue—automatically.",
 };
 

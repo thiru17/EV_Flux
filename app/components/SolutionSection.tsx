@@ -29,7 +29,7 @@ export default function SolutionSection() {
         <section className={styles.section}>
             <div className={styles.container}>
                 <div className={styles.header}>
-                    <h2 className={styles.title}>How DPO Works</h2>
+                    <h2 className={styles.title}>How EV Flux Works</h2>
                     <p className={styles.description}>
                         A continuous loop of optimization that turns chaotic data into profitable decisions.
                     </p>

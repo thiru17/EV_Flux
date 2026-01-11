@@ -16,7 +16,7 @@ export default function Navbar() {
                     <div className={styles.logoIcon}>
                         <Zap size={20} fill="black" />
                     </div>
-                    <span className={styles.logoText}>EV DPO</span>
+                    <span className={styles.logoText}>EV FLUX</span>
                 </Link>
 
                 {/* Desktop Links */}

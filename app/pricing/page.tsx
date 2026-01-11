@@ -21,7 +21,7 @@ export default function PricingPage() {
                         <div className={styles.card}>
                             <h3 className={styles.cardTitle}>Pilot</h3>
                             <p className="text-3xl font-bold text-white mb-4">$0 <span className="text-sm font-normal text-gray-400">/ mo</span></p>
-                            <p className={styles.cardText}>Perfect for testing DPO at a single site.</p>
+                            <p className={styles.cardText}>Perfect for testing Flux at a single site.</p>
                             <ul className="mt-8 space-y-4 mb-8">
                                 <li className="flex items-center gap-2 text-gray-300"><Check size={18} className="text-[var(--primary)]" /> Up to 10 Chargers</li>
                                 <li className="flex items-center gap-2 text-gray-300"><Check size={18} className="text-[var(--primary)]" /> Basic Rules Engine</li>

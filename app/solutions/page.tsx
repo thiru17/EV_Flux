@@ -12,7 +12,7 @@ export default function SolutionsPage() {
                     <div className={styles.hero}>
                         <h1 className={styles.title}>Solutions for Every Network</h1>
                         <p className={styles.subtitle}>
-                            Whether you operate a highway corridor or a residential complex, DPO adapts to your specific constraints and goals.
+                            Whether you operate a highway corridor or a residential complex, Flux adapts to your specific constraints and goals.
                         </p>
                     </div>
 

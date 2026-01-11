@@ -13,7 +13,7 @@ export default function Footer() {
                             <div className={styles.logoBox}>
                                 <Zap size={20} fill="black" />
                             </div>
-                            <span className={styles.brandName}>EV DPO</span>
+                            <span className={styles.brandName}>EV FLUX</span>
                         </Link>
                         <p className={styles.brandDesc}>
                             Dynamic Pricing Intelligence for the next generation of charging networks.
@@ -43,7 +43,7 @@ export default function Footer() {
                 </div>
 
                 <div className={styles.bottomBar}>
-                    <p>&copy; {new Date().getFullYear()} EV DPO Inc. All rights reserved.</p>
+                    <p>&copy; {new Date().getFullYear()} EV FLUX Inc. All rights reserved.</p>
                     <div className={styles.bottomLinks}>
                         <Link href="#" className={styles.bottomLink}>Terms</Link>
                         <Link href="#" className={styles.bottomLink}>Privacy</Link>

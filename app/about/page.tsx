@@ -9,7 +9,7 @@ export default function AboutPage() {
             <div className={styles.content}>
                 <div className={styles.container}>
                     <div className={styles.hero}>
-                        <h1 className={styles.title}>About EV DPO</h1>
+                        <h1 className={styles.title}>About EV FLUX</h1>
                         <p className={styles.subtitle}>
                             We are building the intelligence layer for the electrified future.
                         </p>
