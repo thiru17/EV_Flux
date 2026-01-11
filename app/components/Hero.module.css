@@ -1,0 +1,132 @@
+.section {
+    position: relative;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 5rem;
+    overflow: hidden;
+}
+
+.bgGlowTop {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 1000px;
+    height: 500px;
+    background: var(--primary);
+    opacity: 0.08;
+    filter: blur(120px);
+    border-radius: 9999px;
+    pointer-events: none;
+}
+
+.bgGlowBottom {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 800px;
+    height: 800px;
+    background: var(--secondary);
+    opacity: 0.05;
+    filter: blur(120px);
+    border-radius: 9999px;
+    pointer-events: none;
+}
+
+.container {
+    position: relative;
+    z-index: 10;
+    text-align: center;
+    padding: 0 1rem;
+}
+
+.badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.25rem 0.75rem;
+    border-radius: 9999px;
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    margin-bottom: 2rem;
+    opacity: 0;
+    animation: fadeIn 0.6s ease forwards;
+}
+
+.badgeDot {
+    width: 0.5rem;
+    height: 0.5rem;
+    border-radius: 50%;
+    background: var(--accent);
+    box-shadow: 0 0 8px var(--accent);
+}
+
+.badgeText {
+    font-size: 0.75rem;
+    font-weight: 500;
+    letter-spacing: 0.025em;
+    color: #d1d5db;
+}
+
+.headline {
+    font-size: 3rem;
+    font-weight: 700;
+    letter-spacing: -0.025em;
+    margin-bottom: 1.5rem;
+    opacity: 0;
+    animation: fadeIn 0.6s ease forwards;
+}
+
+@media (min-width: 768px) {
+    .headline {
+        font-size: 4.5rem;
+    }
+}
+
+.subtext {
+    font-size: 1.125rem;
+    color: #9ca3af;
+    max-width: 42rem;
+    margin: 0 auto 2.5rem;
+    line-height: 1.6;
+    opacity: 0;
+    animation: fadeIn 0.6s ease forwards;
+}
+
+@media (min-width: 768px) {
+    .subtext {
+        font-size: 1.25rem;
+    }
+}
+
+.ctaGroup {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    opacity: 0;
+    animation: fadeIn 0.6s ease forwards;
+}
+
+@media (min-width: 640px) {
+    .ctaGroup {
+        flex-direction: row;
+    }
+}
+
+
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(10px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}

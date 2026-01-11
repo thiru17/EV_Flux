@@ -1,0 +1,67 @@
+.card {
+    position: relative;
+    overflow: hidden;
+    padding: 1.5rem;
+    border-radius: 0.75rem;
+    height: 100%;
+    transition: all 0.3s;
+}
+
+.card:hover {
+    border-color: var(--primary);
+}
+
+.cardNegative:hover {
+    border-color: #ef4444;
+}
+
+.hoverGradient {
+    position: absolute;
+    inset: 0;
+    opacity: 0;
+    transition: opacity 0.3s;
+    background: linear-gradient(to bottom, rgba(0, 242, 234, 0.05), transparent);
+}
+
+.hoverGradientNegative {
+    background: linear-gradient(to bottom, rgba(239, 68, 68, 0.05), transparent);
+}
+
+.card:hover .hoverGradient {
+    opacity: 1;
+}
+
+.content {
+    position: relative;
+    z-index: 10;
+}
+
+.iconBox {
+    width: 3rem;
+    height: 3rem;
+    border-radius: 0.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1rem;
+    background: rgba(0, 242, 234, 0.1);
+    color: var(--primary);
+}
+
+.iconBoxNegative {
+    background: rgba(239, 68, 68, 0.1);
+    color: #ef4444;
+}
+
+.title {
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+    color: #f3f4f6;
+}
+
+.description {
+    color: #9ca3af;
+    font-size: 0.875rem;
+    line-height: 1.6;
+}
